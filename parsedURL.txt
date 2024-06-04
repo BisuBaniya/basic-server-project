@@ -1,0 +1,48 @@
+Url {
+  protocol: null,
+  slashes: null,
+  auth: null,
+  host: null,
+  port: null,
+  hostname: null,
+  hash: null,
+  search: null,
+  query: [Object: null prototype] {},
+  pathname: '/',
+  path: '/',
+  href: '/'
+}
+
+Url {
+  protocol: null,
+  slashes: null,
+  auth: null,
+  host: null,
+  port: null,
+  hostname: null,
+  hash: null,
+  search: '?name=birendra+kumar&age=48&a=9',
+  query: [Object: null prototype] {
+    name: 'birendra kumar',
+    age: '48',
+    a: '9'
+  },
+  pathname: '/about',
+  path: '/about?name=birendra+kumar&age=48&a=9',
+  href: '/about?name=birendra+kumar&age=48&a=9'
+}
+
+Url {
+  protocol: null,
+  slashes: null,
+  auth: null,
+  host: null,
+  port: null,
+  hostname: null,
+  hash: null,
+  search: null,
+  query: [Object: null prototype] {},
+  pathname: '/contact-us',
+  path: '/contact-us',
+  href: '/contact-us'
+}

@@ -2,6 +2,9 @@
 // const fs = require('fs');
 // const url = require('url');
 
+require('dotenv').config()
+// console.log(process.env)
+
 const express = require('express');
 
 const app = express();
@@ -61,6 +64,8 @@ app.get('/contact-us',(req,res)=>{
 //     console.log('Server Started!');
 // })
 
-app.listen(5000,()=>{
+app.listen(process.env.PORT,()=>{
     console.log('Server Started!');
 })
+
+

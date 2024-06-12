@@ -1,5 +1,5 @@
 {
-  "name": "server",
+  "name": "basic-server",
   "version": "1.0.0",
   "description": "Goal of this project is to learn Nodejs and to understand how a basic server created.",
   "main": "index.js",

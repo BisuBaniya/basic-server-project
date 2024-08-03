@@ -14,7 +14,7 @@ app.get('/',(req,res)=>{
 })
 
 app.get('/about',(req,res)=>{
-    return res.send(`Hello from About page to ${req.query.name}`);
+    return res.send(`Hello from About page`);
 })
 
 app.get('/contact-us',(req,res)=>{
